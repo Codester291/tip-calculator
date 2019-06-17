@@ -1,0 +1,81 @@
+body{
+  background: url("https://images.unsplash.com/photo-1556742393-d75f468bfcb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  overflow: hidden;
+}
+h1{
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+  font-family: 'Pacifico', cursive;
+}
+.form{
+  box-shadow: 1px 4px 5px #011;
+  border-radius:12px;
+  width: 500px;
+  height: 450px;
+  position: absolute;
+  left: 35%;
+  top: 28;
+  background: url("https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+}
+.input{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 77%;
+  height: 10%;
+  font-size: 24px;
+  border-radius: 12px;
+  border: 2px #000 solid;
+  box-shadow: 0px 3px 3px #000;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  padding:1px 2px 3px 2px;
+}
+input:focus{
+  box-shadow: 1px 4px 5px #808080;
+}
+.input2{
+  position: absolute;
+  padding:1px 2px 3px 2px;
+  top: 34%;
+  left: 10%;
+  width: 77%;
+  height: 10%;
+  font-size: 24px;
+  border-radius: 12px;
+  border: 2px #000 solid;
+  box-shadow: 0px 3px 3px #000;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+.input3{
+  position: absolute;
+  padding:1px 2px 3px 3px;
+  top: 49%;
+  left: 10%;
+  width: 77%;
+  height: 10%;
+  font-size: 24px;
+  border-radius: 12px;
+  border: 2px #000 solid;
+  box-shadow: 0px 3px 3px #000;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-align: center
+}
+.input3:disabled{
+  background: #ccc;
+}
+.button{
+  position: absolute;
+  top: 70%;
+  left: 24%;
+  width: 47%;
+  height: 10%;
+  font-size: 24px;
+  border-radius: 12px;
+  border: 2px #000 solid;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+button:active{
+  background: #000;
+  color: #fff;
+}
